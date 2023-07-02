@@ -21,6 +21,9 @@ module manifold.sample.project {
 
   requires java.desktop;
   requires jdk.unsupported;
+  requires akka.actor.typed;
+  requires org.slf4j;
+  requires akka.actor;
 
   // Register the sample Date proxy factory service implementation
   // (note the META-INF/services registration is still necessary for Java 8 and Java 9+ unnamed-module)

@@ -82,6 +82,18 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <!-- Akka -->
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor-typed_2.13</artifactId>
+      <version>2.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor-testkit-typed_2.13</artifactId>
+      <version>2.7.0</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
