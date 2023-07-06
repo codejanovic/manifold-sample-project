@@ -19,7 +19,7 @@
   </properties>
   
   <dependencies>
-<!-- Add relevant manifold runtime dependencies, compile-time dependencies are listed in annotationProcessorPath- -->
+<!-- Add relevant manifold runtime dependencies, compile-time dependencies are listed in annotationProcessorPath-
     <dependency>
       <groupId>systems.manifold</groupId>
       <artifactId>manifold-delegation-rt</artifactId>
@@ -75,6 +75,7 @@
       <artifactId>manifold-tuple-rt</artifactId>
       <version>${manifold-version}</version>
     </dependency>
+     -->
 <!-- For testing -->
     <dependency>
       <groupId>junit</groupId>
@@ -114,11 +115,12 @@
           <configuration>
             <encoding>UTF-8</encoding>
             <compilerArgs>
-              <!--Add the Manifold plugin-->
+              <!--Add the Manifold plugin
               <arg>-Xplugin:Manifold</arg>
+              -->
             </compilerArgs>
 
-            <!-- Add Manifold compile-time dependencies in the processor path -->
+            <!-- Add Manifold compile-time dependencies in the processor path
             <annotationProcessorPaths>
               <path>
                 <groupId>systems.manifold</groupId>
@@ -191,7 +193,7 @@
                 <version>${manifold-version}</version>
               </path>
             </annotationProcessorPaths>
-
+            -->
           </configuration>
         </plugin>
     </plugins>
